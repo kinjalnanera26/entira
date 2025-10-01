@@ -1,0 +1,12 @@
+.homepage {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+@media (min-width: 370px) and (max-width: 400px) {
+   .homepage{
+        width: 100%;
+    }
+    
+}

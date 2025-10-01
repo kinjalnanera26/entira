@@ -1,0 +1,241 @@
+.supportsection{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 50px;
+}
+.need{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.need1{
+    font-size: 49px;
+    line-height: 90px;
+    font-family: Philosopher;
+    color: rgb(146 131 128);
+    font-weight: 900;
+}
+.need2{
+    width: 49%;
+    font-family: Mulish;
+    color: rgb(146 131 128);
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+}
+.support{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.support img{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.support h3{
+    line-height: 30px;
+    font-size: 27px;
+    font-family: Philosopher;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(146 131 128);
+}
+
+.support p{
+    font-size: 13px;
+    font-family: Mulish;
+    text-align: center;
+    color: rgb(146 131 128);
+    line-height: 1.5;
+
+}
+.row-gap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 28px;  
+    margin-top: -20px;
+}
+.support1{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(248 242 240);
+    border-radius: 7px;
+}
+.button1{
+    width: 130px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: rgb(238 188 163);
+    text-align: center;
+    font-family: Mulish;
+}
+.button1 p{
+    color: rgb(255 255 255);
+    font-size: 17px;
+}
+.support2{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(248 242 240);
+    border-radius: 7px;
+}
+.button2{
+    width: 130px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: rgb(238 188 163);
+    text-align: center;
+    font-family: Mulish;
+    margin-top: 20px;
+}
+.button2 p{
+    color: rgb(255 255 255);
+     font-size: 17px;
+}
+.support3{
+    width: 32%;
+    height: 300px;
+    background-color: rgb(248 242 240);
+    border-radius: 7px;
+}
+.button3{
+    width: 130px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: rgb(238 188 163);
+    text-align: center;
+    font-family: Mulish;
+    margin-top: 20px;
+}
+.button3 p{
+    color: rgb(255 255 255);
+     font-size: 17px;
+}
+
+/* responsive in mobile view */
+@media (min-width: 768px) and (max-width: 900px) {
+    
+    .supportsection{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 120px;
+        gap: 50px;
+    }
+    .need{
+        display: flex;
+    }
+    .need1{
+        font-size: 45px;
+    }
+    .need2{
+        width: 90%;
+        line-height: 1.7;
+    }
+    .support {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        width: 80%;
+        margin: auto;
+    }
+    .support1{
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+    .support2{
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+    .support3 {
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+}
+/* responsive in mobile view */
+@media (min-width: 370px) and (max-width: 400px) {
+    
+    .supportsection{
+        width: 88%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 130px;
+        gap: 50px;
+    }
+    .need{
+        display: flex;
+    }
+    .need1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .need2{
+        width: 90%;
+        line-height: 1.7;
+    }
+    .row-gap{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 28px;  
+        margin-top: -20px;
+    }
+    .support {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        width: 95%;
+        margin: auto;
+    }
+    .support1{
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+    .support2{
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+    .support3 {
+        width: 100%;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+        box-sizing: border-box; 
+    }
+
+}
